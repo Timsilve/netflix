@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+  background-color: #000000;
+  font-family: "lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
