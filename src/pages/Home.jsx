@@ -7,9 +7,9 @@ function Home() {
   return (
     <>
       <Main />
+      <Row title="Trending" fetchUrl={request.requestTrending} />
       <Row title="Upcoming" fetchUrl={request.requestUpcoming} />
       <Row title="Popular" fetchUrl={request.requestPopular} />
-      <Row title="Trending" fetchUrl={request.requestTrending} />
       <Row title="TopRated" fetchUrl={request.requestTopRated} />
       <Row title="Nowplaying" fetchUrl={request.requestNowPlaying} />
     </>
